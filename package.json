@@ -1,5 +1,5 @@
 {
-  "name": "@ioa/auth",
+  "name": "@chewbank/ioa-auth",
   "version": "9.6.0",
   "bundleDependencies": false,
   "dependencies": {
