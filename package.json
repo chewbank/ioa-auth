@@ -1,0 +1,25 @@
+{
+  "name": "@ioa/auth",
+  "version": "9.6.0",
+  "bundleDependencies": false,
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
+  },
+  "deprecated": false,
+  "description": "基于jsonwebtoken包装的ioa签名与解签模块",
+  "devDependencies": {
+    "@chewbank/ioa": "^10.0.4",
+    "@chewbank/ioa-koa": "^9.8.8",
+    "axios": "^0.18.1"
+  },
+  "files": [
+    "lib",
+    "!lib/node_modules"
+  ],
+  "license": "ISC",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node index.js",
+    "test": "jtf -w"
+  }
+}
